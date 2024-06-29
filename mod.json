@@ -1,0 +1,34 @@
+{
+	"geode": "2.0.0-beta.27",
+	"gd": "2.200",
+	"version": "v1.0.0",
+	"id": "ninxout.redash",
+	"name": "ReDash",
+	"developer": "ninXout",
+	"description": "",
+	"resources": {
+		"spritesheets": {
+            "redashsheet1": [
+                "resources/redashsheet1/*.png"
+            ]
+        },
+        "fonts": {
+            "NewPusab": {
+                "path": "resources/pusab.otf",
+                "size": 128
+            }
+        },
+        "sprites": [
+            "resources/longButtonHalf-1.png",
+            "resources/longButtonHalf-2.png"
+        ]
+    },
+    "settings": {
+        "remove-account-stats": {
+            "name": "Remove Account Stats",
+            "description": "Remove the account information and stats from the top of the main menu",
+            "type": "bool",
+            "default": false
+        }
+    }
+}
